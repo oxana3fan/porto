@@ -1,0 +1,267 @@
+* {
+  font-family: Libre Franklin !important;
+}
+
+html { scroll-behavior: smooth; } 
+
+.container {
+  width: 100%;
+
+  h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 86px;
+  }
+
+  h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .hero_section {
+    background-image: linear-gradient(rgba(198, 108, 73, 0.3), rgba(198, 108, 73, 0.3)), url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 93px 165px 240px 165px;
+
+    a {
+      color: #fff;
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+
+      .logo {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-decoration: none;
+      }
+
+      .menu {
+        display: flex;
+
+        li {
+          margin-right: 60px;
+
+          a {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-decoration: none;
+          }
+        }
+
+        li:last-child {
+          margin-right: 0px;
+        }
+      }
+    }
+
+    .hero-info {
+      display: flex;
+      margin-top: 145px;
+      flex-flow: column;
+
+      h1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 78px;
+        margin-bottom: 26px;
+      }
+
+      span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 106px;
+      }
+
+      a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  .about {
+    padding: 93px 165px 115px 165px;
+    color: #333333;
+
+    p {
+      margin-bottom: 35px;
+    }
+
+    p:last-child {
+      margin-bottom: 0px;
+    }
+  }
+
+  .skills {
+    padding: 93px 165px 145px 165px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 25px;
+    background: #fffaf2;
+
+    .skills-info {
+      display: flex;
+
+      img {
+        margin-right: 125px;
+      }
+
+      .skills-list {
+        width: auto;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        flex-basis: 100%;
+
+        .skills-item:first-child {
+          margin-bottom: 65px;
+        }
+
+        .skills-item {
+          display: flex;
+
+          .skill-name {
+            width: 250px;
+            font-weight: 600;
+          }
+
+          .skill-desc {
+            max-width: 800px;
+            flex-basis: 100%;
+          }
+
+          .progress-bar {
+            flex-basis: 100%;
+            max-width: 800px;
+            height: 24px;
+            background: #f5d6ab;
+          }
+
+          .progress-value {
+            height: 100%;
+            background: #c66c49;
+          }
+        }
+      }
+    }
+  }
+  .portfolio {
+    padding: 93px 165px 145px 165px;
+
+    .portfolio-desc {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        margin-right: 125px;
+      }
+
+      .portfolio-container {
+        display: flex;
+
+        .portfolio-column {
+          display: flex;
+          flex-direction: column;
+          margin-right: 30px;
+
+          img:first-child {
+            margin-bottom: 26px;
+          }
+        }
+
+        .portfolio-column:last-child {
+          margin-right: 0px;
+        }
+      }
+
+      .portfolio-nav {
+        position: absolute;
+        left: 24px;
+        bottom: 0px;
+
+        a {
+          font-family: Segoe MDL2 Assets !important;
+          font-size: 28px;
+          line-height: 28px;
+          color: #333333;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .contact {
+    background: #fffaf2;
+    padding: 93px 165px 70px 165px;
+
+    .contact-container {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 95px;
+
+      ul {
+        flex-basis: calc(100% / 3);
+
+        li {
+          margin-bottom: 14px;
+
+          a {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            text-decoration: none;
+            color: #333333;
+          }
+        }
+
+        li:last-child {
+          margin-bottom: 0px;
+        }
+      }
+
+      .scroll-top {
+        position: absolute;
+        right: 15px;
+        bottom: 0px;
+        a {
+          font-family: Segoe MDL2 Assets!important;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 28px;
+          line-height: 28px;
+          text-decoration: none;
+          color: #333333;
+        }
+      }
+    }
+
+    
+  }
+}

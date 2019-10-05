@@ -1,0 +1,311 @@
+* {
+  font-family: Libre Franklin !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+}
+
+.container h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 86px;
+}
+
+.container h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+.container p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.container .hero_section {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(198, 108, 73, 0.3)), to(rgba(198, 108, 73, 0.3))), url("../images/bg.jpg");
+  background-image: linear-gradient(rgba(198, 108, 73, 0.3), rgba(198, 108, 73, 0.3)), url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 93px 165px 240px 165px;
+}
+
+.container .hero_section a {
+  color: #fff;
+}
+
+.container .hero_section .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .hero_section .navigation .logo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration: none;
+}
+
+.container .hero_section .navigation .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .hero_section .navigation .menu li {
+  margin-right: 60px;
+}
+
+.container .hero_section .navigation .menu li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.container .hero_section .navigation .menu li:last-child {
+  margin-right: 0px;
+}
+
+.container .hero_section .hero-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 145px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.container .hero_section .hero-info h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 78px;
+  margin-bottom: 26px;
+}
+
+.container .hero_section .hero-info span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 106px;
+}
+
+.container .hero_section .hero-info a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.container .about {
+  padding: 93px 165px 115px 165px;
+  color: #333333;
+}
+
+.container .about p {
+  margin-bottom: 35px;
+}
+
+.container .about p:last-child {
+  margin-bottom: 0px;
+}
+
+.container .skills {
+  padding: 93px 165px 145px 165px;
+  color: #333333;
+  font-size: 18px;
+  line-height: 25px;
+  background: #fffaf2;
+}
+
+.container .skills .skills-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .skills .skills-info img {
+  margin-right: 125px;
+}
+
+.container .skills .skills-info .skills-list {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.container .skills .skills-info .skills-list .skills-item:first-child {
+  margin-bottom: 65px;
+}
+
+.container .skills .skills-info .skills-list .skills-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .skills .skills-info .skills-list .skills-item .skill-name {
+  width: 250px;
+  font-weight: 600;
+}
+
+.container .skills .skills-info .skills-list .skills-item .skill-desc {
+  max-width: 800px;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.container .skills .skills-info .skills-list .skills-item .progress-bar {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  max-width: 800px;
+  height: 24px;
+  background: #f5d6ab;
+}
+
+.container .skills .skills-info .skills-list .skills-item .progress-value {
+  height: 100%;
+  background: #c66c49;
+}
+
+.container .portfolio {
+  padding: 93px 165px 145px 165px;
+}
+
+.container .portfolio .portfolio-desc {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .portfolio .portfolio-desc p {
+  margin-right: 125px;
+}
+
+.container .portfolio .portfolio-desc .portfolio-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .portfolio .portfolio-desc .portfolio-container .portfolio-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 30px;
+}
+
+.container .portfolio .portfolio-desc .portfolio-container .portfolio-column img:first-child {
+  margin-bottom: 26px;
+}
+
+.container .portfolio .portfolio-desc .portfolio-container .portfolio-column:last-child {
+  margin-right: 0px;
+}
+
+.container .portfolio .portfolio-desc .portfolio-nav {
+  position: absolute;
+  left: 24px;
+  bottom: 0px;
+}
+
+.container .portfolio .portfolio-desc .portfolio-nav a {
+  font-family: Segoe MDL2 Assets !important;
+  font-size: 28px;
+  line-height: 28px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.container .contact {
+  background: #fffaf2;
+  padding: 93px 165px 70px 165px;
+}
+
+.container .contact .contact-container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 95px;
+}
+
+.container .contact .contact-container ul {
+  -ms-flex-preferred-size: calc(100% / 3);
+      flex-basis: calc(100% / 3);
+}
+
+.container .contact .contact-container ul li {
+  margin-bottom: 14px;
+}
+
+.container .contact .contact-container ul li a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.container .contact .contact-container ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.container .contact .contact-container .scroll-top {
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+}
+
+.container .contact .contact-container .scroll-top a {
+  font-family: Segoe MDL2 Assets !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #333333;
+}
+/*# sourceMappingURL=styles.css.map */
